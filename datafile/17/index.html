@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>TabListPlagin</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="datafile/17/css/tabableCss.css">
+
+	<script src="datafile/17/js/tabable.js"></script>
+</head>
+<body>
+<button class="btn btn-primary" onclick=$(".tabable").tabable()>Inicialization Plagin</button>
+<button class="btn btn-primary" onclick=$(".tabable").tabable().show(2)>Show third tab</button>
+<button class="btn btn-primary" onclick=$(".tabable").tabable().destroy()>Destroy Plagin</button>
+<div class="tabable tabable-vertical">
+	<ul class="">
+		<li class="">Uno</li>
+		<li class="">Tuo</li>
+		<li class="">Tetra</li>
+	</ul>
+	<div class="">
+		<div>1.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, earum, ea deleniti dicta nam repellat </div>
+		<div>2.quae expedita est ex ad et nobis laudantium reprehenderit soluta ratione accusamus voluptatem illo quas.</div>
+		<div>3.onsectetur adipisicing elit. Mollitia, earum, ea deleniti dicta</div>
+	</div>
+</div>
+<button class="btn btn-primary" onclick=$(".tabable1").tabable()>Inicialization Plagin</button>
+<button class="btn btn-primary" onclick=$(".tabable1").tabable().show(2)>Show third tab</button>
+<button class="btn btn-primary" onclick=$(".tabable1").tabable().destroy()>Destroy Plagin</button>
+<div class="tabable1 tabable-vertical">
+	<ul class="">
+		<li class="">Uno</li>
+		<li class="">Tuo</li>
+		<li class="">Tetra</li>
+	</ul>
+	<div class="">
+		<div>1.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, earum, ea deleniti dicta nam repellat </div>
+		<div>2.quae expedita est ex ad et nobis laudantium reprehenderit soluta ratione accusamus voluptatem illo quas.</div>
+		<div>3.onsectetur adipisicing elit. Mollitia, earum, ea deleniti dicta</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	$(document).on('tabable-init', function(event, tabableWidget) {
+	console.log('Widget tabable was initialized', tabableWidget)
+});
+
+
+
+$(document).on('tabable-tab-shown', function(event, tabshowConfig) {
+	console.log('Tab with index', tabshowConfig.index, 'was shown')
+});
+$(document).on('tabable-tab-hidden', function(event, tabshowConfig) {
+	console.log('Tab with index', tabshowConfig.prevActibe, 'was hidden')
+});
+</script>
+</body>
+</html>

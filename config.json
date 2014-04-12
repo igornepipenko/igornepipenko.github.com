@@ -1,0 +1,132 @@
+[{
+	"title": "Intro-expressions-values-operators",
+	"description": "description.md",
+	"js": "script-with-errors.js",
+	"js1": "operators.js"
+}, {
+	"title": "Сomparison-if-else-logic-operators",
+	"description": "description.md",
+	"js1": "logika.js",
+	"js2": "ygadayka.js"
+}, {
+	"title": "Objects-properties-arrays-loops",
+	"description": "description.md",
+	"js1": "contains.js",
+	"js2": "extractOddItems.js",
+	"js3": "createObject.js",
+	"js4": "toMatrix.js",
+	"js5": "toQueryString.js"
+}, {
+	"title": "Functions-methods",
+	"description": "description.md",
+	"js1": "isInArray().js",
+	"js3": "extend().js",
+	"js4": "every.js",
+	"js5": "summ().js",
+	"js6": "parse.js"
+}, {
+	"title": "Functions-scope-closure-this",
+	"description": "description.md",
+	"js1": "createCachable.js",
+	"js3": "createKeeper.js",
+	"js4": "createSummator.js",
+	"js5": "getUnique.js",
+	"js6": "makeArmy.js"
+}, {
+	"title": "Functions-this-prototype",
+	"description": "description.md",
+	"js1": "counterproto.js",
+	"js3": "galery.js",
+	"js4": "createMediator.js",
+	"js5": "makeIterable.js"
+}, {
+	"title": "DOM-intro",
+	"description": "description.md",
+	"js1": "next.js",
+	"js3": "addClass.js",
+	"js4": "removeClass.js",
+	"js5": "hasClass.js",
+	"js6": "closest.js",
+	"js7": "createList.js"
+}, {
+	"title": "Remove-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js3": "messages.css",
+	"js4": "js/remove.js",
+	"widget": "widget"
+}, {
+	"title": "Hide-list-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js3": "css/main.css",
+	"js4": "js/hidden.js",
+	"widget": "widget"
+}, {
+	"title": "Sort-table-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js2": "js/sort.js",
+	"widget": "widget"
+}, {
+	"title": "Tag-list-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js3": "css/main.css",
+	"js2": "js/taglist.js",
+	"widget": "widget"
+}, {
+	"title": "Stopwatch-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js2": "css/main.css",
+	"js3": "js/secondnew.js",
+	"js4": "js/second.js",
+	"widget": "widget"
+}, {
+	"title": "ValidateForm-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js3": "css/main.css",
+	"js2": "js/validate.js",
+	"widget": "widget"
+}, {
+	"title": "Zoomer-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js3": "css/zoomer.css",
+	"js2": "js/zoomerjquery.js",
+	"widget": "widget"
+}, {
+	"title": "Slider-widget",
+	"description": "description.md",
+	"js1": "index.html",
+	"js3": "css/slider.css",
+	"js2": "js/sliderjquery1.js",
+	"widget": "widget"
+}, {
+	"title": "ComixSlide-widget",
+	"description": "description.md",
+	"js1": "js/comixSlide.js",
+	"widget": "widget"
+}, {
+	"title": "Patterns",
+	"description": "description.md",
+	"js1": "index.html",
+	"js2": "js/init.js",
+	"js3": "js/secondnew.js",
+	"js4": "js/sliderjquery1.js",
+	"js5": "js/zoomerjquery.js",
+	"js6": "css/main.css",
+	"js7": "css/slider.css",
+	"js8": "css/zoomer.css",
+	"widget": "widget"
+}, {
+	"title": "Tabable",
+	"description": "description.md",
+	"js1": "index.html",
+	"js2": "js/tabable.js",
+	"js3": "js/tabableproto.js",
+	"js4": "css/tabableCss.css",
+	"widget": "widget"
+}]

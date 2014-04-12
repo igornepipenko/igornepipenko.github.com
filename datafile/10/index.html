@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>лист тегов</title>
+	<link rel="stylesheet" href="datafile/10/css/bootstrap.min.css">
+	<link rel="stylesheet" href="datafile/10/css/main.css">
+	
+</head>
+<body>
+	<div class="main">
+	
+	</div>
+	<script src="datafile/10/js/taglist.js"></script>
+	<!--<script src="js/second.js"></script>-->
+<script>
+//демострация виджета с вторым параметром список тегов
+var tag1=new TagList(document.querySelector('.main'),["foo","bar","bar-foo"]);
+tag1.getTagList();//демонстрация метода getTagList в консольке
+var tag2=new TagList(document.querySelector('.main'));
+
+</script>
+
+</body>
+</html>

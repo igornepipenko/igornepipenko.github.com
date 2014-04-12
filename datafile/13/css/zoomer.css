@@ -1,0 +1,46 @@
+.gallery-1,.gallery-2{
+	cursor:pointer;
+}
+/*бокс галереи , он же фон*/
+#fongal {
+	
+	background-image:url('../img/fon.png');
+  overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 200; 
+	text-align:center;
+	
+
+}
+#fongal img   {
+display: block;
+float:left;
+border: 5px solid white;
+}
+#fongal div{
+	display: block;
+	
+}
+.visclass{
+	 visibility: visible;
+}
+.hidclass{
+	 visibility: hidden;
+}
+/*значек закрытия крестик*/
+#boxgalx {
+  visibility: hidden;
+    width: 30px;
+    height: 30px;
+    z-index: 400;
+    background-image: url("../img/close.png");
+    cursor: pointer;
+	 float:left;
+	
+}
+
+

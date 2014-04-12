@@ -1,0 +1,216 @@
+body{
+	 background-image: url("../img/1.png");
+
+}
+.telo{
+ background-image: url("../img/2.png");
+ border-radius:3px;
+ border:1px solid grey;
+	margin: auto;
+	
+	width: 1006px;
+	height: 925px;
+	/*overflow: hidden;*/
+	padding-left:5px; 
+	/*padding-top: 8px;*/
+
+}
+.telom{
+	overflow: auto;
+	position: relative;
+	left: -15px;
+	width: 32.2%;
+	height: 360px;
+	overflow-x:hidden;
+	float: left;
+	margin-top: 40px;
+	/*border:1px solid red;*/
+	position: relative;
+	top:9px;
+}
+.teloh{
+	position: relative;
+	top:-12px;
+	
+	overflow:hidden;
+	float:right;
+	width: 636px;
+	height: 60px;
+
+	margin-right: 9px;
+	}
+.header{
+	background-image: url("../img/header.png");
+	width: 700px;
+	height: 50px;
+
+}
+.qdiv{
+	background-image: url("../img/qdiv.png");
+	width: 796px;
+	height: 242px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.foto{
+	background-image: url("../img/foto.png");
+	width: 111px;
+	height: 150px;
+	border: 5px solid white;
+	border-radius: 4px;
+	position: relative;
+	top:50px;
+	left: 110px;
+	float:left;
+}
+.text{
+	float: right;
+	background-image: url("../img/text.png");
+	width: 378px;
+	height: 107px;
+	position: relative;
+	top:60px;
+	left:-120px;
+}
+.vis{
+	visibility: visible;
+}
+.hid{
+	visibility: hidden;
+}
+/*Горизонтальное меню*/
+.arrowblock{
+	position: relative;
+	width:25px;
+	height:50px;
+	left: 323px;
+	top: 40px;
+}
+.arrowl,.arrowr{
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+}
+.horizontalmenu{
+	background-image: url("../img/hmenufon.png");
+	position: relative;
+	top:5px;
+	/*border:1px solid red;*/
+	/*width: 1000px;*/
+	height: 45px;
+	float:left;
+	/*border:1px solid grey;*/
+	border-radius:3px;
+	
+
+}
+.markhmenu{
+	float:left;
+
+text-align: center;
+height: 49px;
+width: 106px;
+}
+.hmenu{
+	overflow: hidden;
+	cursor: pointer;
+	margin:auto;
+	margin-top: 16px;
+	/*border:1px solid black;*/
+width: 82px;
+font-size: x-small;
+}
+.chengedh{
+	position: relative;
+	z-index: 10;
+	top:-6px;
+	background-image: url("../img/markhm.png");
+	color:white;
+}
+
+
+/*Вертикальное меню*/
+
+.verticalmenu{
+	position: relative;
+	left: 10px;
+	
+	/*background-color: #f1f8fd;*/
+	width: 98%;
+	float:left;
+	/*border:1px solid grey;*/
+	border-radius:3px;
+	
+}
+.markvmenu{
+	overflow: hidden;
+	width: 100%;
+	height: 62px;
+ 	text-align: justify;
+
+}
+.vmenu{
+	width: 98%
+	height:40px;
+	margin-top: 21px;
+	margin-left: 10px;
+	font-size: medium;
+	cursor: pointer;
+}
+.chengedv{
+	position: relative;
+	z-index: 10;
+	left:-7px;
+	background-image: url("../img/markvm.png");
+	color:white;
+}
+/*Контент*/
+.contentdiv{
+	
+	word-wrap: break-word;
+	border:1px solid grey;
+	width: 66.4%;
+	height: 360px;
+	float: right;
+overflow-x:auto;
+margin-right: 10px;
+border-radius: 3px;
+padding:7px;
+}
+.content{
+	width: 100%;
+	background-color: none;
+	/*float:right;*/
+	border-radius:3px;
+	font-size: small;
+	padding-bottom: -10px;
+}
+.gif{
+	position: relative;
+	top:170px;
+	left: 310px
+}
+
+
+
+
+/*Футер*/
+.footer{
+	margin-top: 30px;
+	position: relative;
+
+	width: 1020px;
+	height: 126px;
+	left:-13px;
+	top: 400px;
+background-image: url("../img/footer.png");
+}
+.footerinner{
+	position: relative;
+	top:60px;
+	left:330px;
+background-image: url("../img/copyright.png");
+width: 470px;
+height: 11px;
+
+}

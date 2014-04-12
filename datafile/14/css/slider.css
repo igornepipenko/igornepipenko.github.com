@@ -1,0 +1,53 @@
+
+.sliderImg {
+/*border:2px solid red;*/
+height: 115px;
+width: 303px;
+z-index: 5;
+overflow: hidden;
+border:solid 1px grey;
+}
+.divImg{
+	position: relative;
+	width:910px;
+	height: 115px;
+	overflow: hidden;
+	
+}
+.divImg >div {
+	
+	float:left;
+
+}
+.divImg div img{
+	
+	width: 303px;
+
+
+}
+.sliderPointer{
+	float:left;
+	height: 115px;
+	width: 100px;
+	overflow: hidden;
+	z-index: 10;
+	border:solid 1px grey;
+}
+.divPointer div{
+	width: 100px;
+	height: 28px;
+	border-bottom:solid 1px grey;
+	cursor: pointer;
+}
+.arrow{
+position:relative;
+left:99px;
+top:22px;
+z-index: 11;
+	}
+.arrow img{
+width: 7px
+}	
+.pointer{
+	background-color: #f87100;
+}

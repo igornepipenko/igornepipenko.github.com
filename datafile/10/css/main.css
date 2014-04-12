@@ -1,0 +1,34 @@
+.hidden {
+	visibility: hidden;
+}
+.visible {
+	visibility: visible;
+}
+.containerTagList{
+	margin-top: 20px;
+
+width: 505px;
+	
+}
+.containerInput{
+
+width: 500px;
+}
+.tagsDiv{
+	
+	width: 497px;
+	overflow: hidden;
+
+}
+.mytag {
+	overflow: hidden;
+	
+	color:white;
+	background-color:grey; 
+	float:left;
+	margin:3px 7px;
+	height: 27px; 
+	padding:2px 4px;
+	border-radius: 3px;
+
+}

@@ -1,0 +1,16 @@
+.alert-good{
+color:black;
+background-color:rgb(0,255,103);
+border:1px solid red;
+}
+.button-bad{
+color:black;
+background-color:gray;
+border:1px solid gray;
+}
+.hidden{
+	visiblity:hidden;
+}
+.visible{
+	visiblity:visible;
+}
