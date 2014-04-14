@@ -1,7 +1,7 @@
-.gallery-1,.gallery-2{
+.gallery,.gallery-2{
 	cursor:pointer;
 }
-/*бокс галереи , он же фон*/
+/*пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ , пїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ*/
 #fongal {
 	
 	background-image:url('../img/fon.png');
@@ -31,7 +31,7 @@ border: 5px solid white;
 .hidclass{
 	 visibility: hidden;
 }
-/*значек закрытия крестик*/
+/*пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ*/
 #boxgalx {
   visibility: hidden;
     width: 30px;
