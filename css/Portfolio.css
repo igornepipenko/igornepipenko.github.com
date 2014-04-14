@@ -2,6 +2,9 @@ body{
 	 background-image: url("../img/1.png");
 
 }
+.zoomer-1{
+cursor:pointer;	
+}
 .telo{
  background-image: url("../img/2.png");
  border-radius:3px;
